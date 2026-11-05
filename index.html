@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#070707">
+<meta name="description" content="Enes Çolak — DEADY. Cyber Security, Web Security ve Python araştırmaları.">
+<title>DEADY | Enes Çolak</title>
+<link rel="stylesheet" href="/static/style.css">
+<style>
+.profile-layout{display:grid;grid-template-columns:1.2fr .8fr;gap:25px;align-items:stretch;margin-top:45px}
+.profile-card,.terminal{background:#101010;border:1px solid #292929;padding:30px;position:relative;overflow:hidden}
+.profile-card{background:linear-gradient(145deg,#171010,#0d0d0d)}
+.profile-card .initial{font-size:65px;font-weight:900;color:#ff263f;text-shadow:0 0 30px #ff263f55}
+.profile-card h3{font-size:25px;margin:15px 0 5px}
+.profile-card .alias{color:#ff263f;letter-spacing:3px;font-size:12px}
+.profile-card p{color:#999;line-height:1.8;margin-top:20px;font-size:14px}
+.status{display:inline-block;color:#ff263f;border:1px solid #ff263f55;padding:8px 12px;font-size:10px;letter-spacing:2px;margin-top:20px}
+.terminal{font-family:monospace;min-height:300px;box-shadow:0 0 35px #ff263f0b}
+.terminal-head{display:flex;gap:7px;border-bottom:1px solid #292929;padding-bottom:17px;margin-bottom:22px}
+.dot{width:9px;height:9px;border-radius:50%;background:#ff263f}
+.dot:nth-child(2){background:#777}.dot:nth-child(3){background:#444}
+.terminal-title{margin-left:auto;color:#777;font-size:10px}
+.terminal-line{font-size:12px;color:#999;line-height:2.2}
+.terminal-line b{color:#ff263f}
+.cursor{display:inline-block;width:8px;height:15px;background:#ff263f;vertical-align:middle;animation:blink 1s steps(2) infinite}
+@keyframes blink{50%{opacity:0}}
+.focus-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:30px}
+.focus-item{padding:20px 12px;text-align:center;background:#111;border:1px solid #292929;color:#bbb;font-size:11px;letter-spacing:1px}
+.focus-item strong{display:block;color:#ff263f;font-size:22px;margin-bottom:12px}
+.project-note{margin-top:25px;padding:22px;border:1px solid #292929;background:#101010}
+.project-note p{color:#999;font-size:13px;line-height:1.8;margin-top:10px}
+.contact-line{display:flex;flex-wrap:wrap;gap:12px;margin-top:25px}
+.contact-line a{border:1px solid #333;padding:12px 17px;font-size:12px;color:#ccc;transition:.2s}
+.contact-line a:hover{border-color:#ff263f;color:#ff263f}
+@media(max-width:750px){.profile-layout{grid-template-columns:1fr}.focus-grid{grid-template-columns:repeat(2,1fr)}}
+</style>
+</head>
+<body>
+
+<header class="navbar">
+<a class="logo" href="/">DEADY<span>.</span></a>
+<nav>
+<a href="#profil">PROFİL</a>
+<a href="#arastirma">ARAŞTIRMA</a>
+<a href="#projeler">PROJELER</a>
+<a href="#iletisim">İLETİŞİM</a>
+</nav>
+<a class="nav-button" href="#profil">EXPLORE</a>
+</header>
+
+<main>
+<section class="hero">
+<div class="tag">● DEADY SYSTEM // ONLINE</div>
+<h1>ENES<br><span>ÇOLAK.</span></h1>
+<p>Benim dijital imzam DEADY. Kodun arkasındaki mantığı keşfediyor, sistemleri anlamaya ve güvenli dijital çözümler üretmeye odaklanıyorum.</p>
+<div class="hero-buttons">
+<a href="#profil" class="primary">PROFİLİ KEŞFET</a>
+<a href="#arastirma" class="secondary">ÇALIŞMA ALANLARI</a>
+</div>
+<div class="hero-bottom">DEADY / WEB SECURITY / PYTHON / ETHICAL HACKING</div>
+</section>
+
+<section id="profil" class="section">
+<div class="section-tag">01 / IDENTITY</div>
+<h2>THE PERSON BEHIND <span>DEADY.</span></h2>
+<div class="profile-layout">
+<div class="profile-card">
+<div class="initial">D.</div>
+<h3>ENES ÇOLAK</h3>
+<div class="alias">KNOWN AS // DEADY</div>
+<p>Ben Enes Çolak. Dijital dünyadaki imzam DEADY. Benim için kod yalnızca satırlardan ibaret değil; bir düşünce biçimi. Öğrenmeyi, araştırmayı, üretmeyi ve her projede kendimi geliştirmeyi seviyorum.</p>
+<div class="status">● LEARNING & BUILDING</div>
+</div>
+<div class="terminal">
+<div class="terminal-head">
+<span class="dot"></span><span class="dot"></span><span class="dot"></span>
+<span class="terminal-title">DEADY_TERMINAL</span>
+</div>
+<div class="terminal-line"><b>deady@system</b>:~$ whoami</div>
+<div class="terminal-line">Enes Colak / DEADY</div>
+<div class="terminal-line"><b>deady@system</b>:~$ interests</div>
+<div class="terminal-line">Python</div>
+<div class="terminal-line">Web Security</div>
+<div class="terminal-line">Ethical Hacking</div>
+<div class="terminal-line"><b>deady@system</b>:~$ mission</div>
+<div class="terminal-line">Learn. Build. Improve.</div>
+<div class="terminal-line"><b>deady@system</b>:~$ <span class="cursor"></span></div>
+</div>
+</div>
+</section>
+
+<section id="arastirma" class="section lab">
+<div class="section-tag">02 / AREAS OF INTEREST</div>
+<h2>FOCUS <span>AREAS.</span></h2>
+<p>Teknolojiyi öğrenmek ve güvenli sistemler geliştirmek için odaklandığım alanlar.</p>
+<div class="focus-grid">
+<div class="focus-item"><strong>01</strong>PYTHON</div>
+<div class="focus-item"><strong>02</strong>WEB SECURITY</div>
+<div class="focus-item"><strong>03</strong>OWASP</div>
+<div class="focus-item"><strong>04</strong>ETHICAL HACKING</div>
+</div>
+</section>
+
+<section id="projeler" class="section">
+<div class="section-tag">03 / SELECTED WORK</div>
+<h2>PROJECT <span>ARCHIVE.</span></h2>
+<div class="cards">
+<article class="card">
+<span>PROJECT_01</span>
+<h3>DEADY WEBSITE</h3>
+<p>Kişisel profil ve siber güvenlik araştırmalarını tanıtan web projesi.</p>
+</article>
+<article class="card">
+<span>PROJECT_02</span>
+<h3>PYTHON PROJECTS</h3>
+<p>Python ile geliştirilen uygulamalar ve öğrenme çalışmaları.</p>
+</article>
+<article class="card">
+<span>PROJECT_03</span>
+<h3>WEB EXPERIMENTS</h3>
+<p>Yerel ve izinli ortamlarda web teknolojileri üzerine deneyler.</p>
+</article>
+</div>
+<div class="project-note">
+<h3>RESEARCH MINDSET</h3>
+<p>Her proje yeni bir meydan okuma. Her hata yeni bir tecrübe. Amacım öğrenmek, üretmek ve bilgimi sürekli geliştirmek.</p>
+</div>
+</section>
+
+<section id="iletisim" class="section about">
+<div class="section-tag">04 / CONNECT</div>
+<h2>LET'S <span>CONNECT.</span></h2>
+<p>DEADY dünyasına hoş geldin. Yeni projeler, fikirler ve teknoloji üzerine iletişim kurmak için sosyal bağlantılarımı burada bulabilirsin.</p>
+<div class="contact-line">
+<a href="https://wa.me/905515072738" target="_blank" rel="noopener noreferrer">WHATSAPP · +90 551 507 27 38</a>
+<a href="https://www.tiktok.com/@1deady" target="_blank" rel="noopener noreferrer">TIKTOK · @1deady</a>
+<a href="https://www.instagram.com/en6sp/" target="_blank" rel="noopener noreferrer">INSTAGRAM · @en6sp</a>
+<a href="https://t.me/dertvar" target="_blank" rel="noopener noreferrer">TELEGRAM · @dertvar</a>
+</div>
+<div class="warning">
+<h3>NO LIMITS. NO SHORTCUTS.</h3>
+<p>JUST KNOWLEDGE. WELCOME TO THE DEADY WORLD.</p>
+</div>
+</section>
+</main>
+
+<footer>© 2026 DEADY — ENES ÇOLAK / BUILT WITH CURIOSITY.</footer>
+</body>
+</html>
